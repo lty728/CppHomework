@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.20617.1 PREVIEW
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{5E7A35E6-C1F4-4F80-812E-90ABD3E529AE}"
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemperatureConversion", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{894BE290-7A2E-4B34-B918-CC70D6C67CCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cmn", "Cnm\Cnm.vcxproj", "{9B86C072-B881-4697-83E2-E056DC5BE2FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowerXY", "PowerXY\PowerXY.vcxproj", "{5C1937D6-934E-43EA-896C-AC4CAAB81C80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{97D649C5-1ABF-4C5B-B928-1DF7F61E0A92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,22 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E7A35E6-C1F4-4F80-812E-90ABD3E529AE}.Debug|Win32.ActiveCfg = Debug|Win32
-		{5E7A35E6-C1F4-4F80-812E-90ABD3E529AE}.Debug|Win32.Build.0 = Debug|Win32
-		{5E7A35E6-C1F4-4F80-812E-90ABD3E529AE}.Release|Win32.ActiveCfg = Release|Win32
-		{5E7A35E6-C1F4-4F80-812E-90ABD3E529AE}.Release|Win32.Build.0 = Release|Win32
+		{894BE290-7A2E-4B34-B918-CC70D6C67CCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{894BE290-7A2E-4B34-B918-CC70D6C67CCB}.Debug|Win32.Build.0 = Debug|Win32
+		{894BE290-7A2E-4B34-B918-CC70D6C67CCB}.Release|Win32.ActiveCfg = Release|Win32
+		{894BE290-7A2E-4B34-B918-CC70D6C67CCB}.Release|Win32.Build.0 = Release|Win32
+		{9B86C072-B881-4697-83E2-E056DC5BE2FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B86C072-B881-4697-83E2-E056DC5BE2FF}.Debug|Win32.Build.0 = Debug|Win32
+		{9B86C072-B881-4697-83E2-E056DC5BE2FF}.Release|Win32.ActiveCfg = Release|Win32
+		{9B86C072-B881-4697-83E2-E056DC5BE2FF}.Release|Win32.Build.0 = Release|Win32
+		{5C1937D6-934E-43EA-896C-AC4CAAB81C80}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C1937D6-934E-43EA-896C-AC4CAAB81C80}.Debug|Win32.Build.0 = Debug|Win32
+		{5C1937D6-934E-43EA-896C-AC4CAAB81C80}.Release|Win32.ActiveCfg = Release|Win32
+		{5C1937D6-934E-43EA-896C-AC4CAAB81C80}.Release|Win32.Build.0 = Release|Win32
+		{97D649C5-1ABF-4C5B-B928-1DF7F61E0A92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97D649C5-1ABF-4C5B-B928-1DF7F61E0A92}.Debug|Win32.Build.0 = Debug|Win32
+		{97D649C5-1ABF-4C5B-B928-1DF7F61E0A92}.Release|Win32.ActiveCfg = Release|Win32
+		{97D649C5-1ABF-4C5B-B928-1DF7F61E0A92}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
